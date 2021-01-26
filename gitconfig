@@ -1,4 +1,5 @@
 [init]
+  defaultBranch = main
   templatedir = ~/.git_template
 [push]
   default = current
@@ -25,3 +26,5 @@
   autosquash = true
 [include]
   path = ~/.gitconfig.local
+[diff]
+  colorMoved = zebra
